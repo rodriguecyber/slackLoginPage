@@ -1,0 +1,166 @@
+body{
+    background-color: darksalmon;
+    /* align-items: center; */
+}
+.flex{
+display:flex; 
+background-color: blue;
+height:110vh;
+width:80%;
+margin-left: 100px;
+margin-top: 8px;
+margin-bottom: 8px;
+border-radius: 10px;
+padding: 6px 6px ;
+
+
+
+}
+.left{
+
+height:100%;
+width:50%       ;
+align-items: center;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+
+}
+.right{
+    background-color: rgb(253, 254, 254);
+    height: 100%;
+    width: 50%; 
+    justify-content:center;
+    align-content: center;
+    display:flex;
+    flex-direction: column;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+
+    /* text-align: center;   */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.left img{
+height: 100%;
+width: 100%;
+align-self: center;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    /* margin-left: 15px;  */
+}
+input{
+    padding-top: 2px;
+    width:100%;
+    height: 6vh;
+    /* width: 27vw; */
+    margin-bottom:15px;
+}
+input[type=text],[type=password]{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 2px;
+    
+}
+.content{
+     margin-left:40px; 
+    /* margin-right: 30px; */
+    height:fit-content;
+    width:30vw;
+    
+}
+.google{
+    height: 4vh;
+    width: 90%;
+    justify-content: center;
+    border: 1px solid rgb(249, 249, 249);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: rgb(241, 235, 235);
+    
+    
+
+
+}
+.google img{
+    width:20px;
+    height:20px;
+    margin-right: 4px;
+}
+a{
+    font-display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color:black;
+    margin-left: 4px;
+    
+}
+input[type=button]{
+background-color: rgb(223, 98, 98);
+margin-top: 10px;
+border: 1px solid  rgb(206, 204, 204);
+border-radius: 5px;
+cursor: pointer;
+}
+input[type=button]:hover{
+    background-color: rgb(223, 109, 71);
+}
+#sign{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.remember{
+    display: flex;
+    width:fit-content;
+    height: auto;
+    flex-direction: row;
+   
+
+
+}
+input[type=checkbox]{
+    width:17px;   
+}
+.remember p{
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.for{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin:10px 20px;
+}
+.logo img{
+    width: 15vw;
+    height: 15vh;
+}
+.last{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.last a{
+    color: brown;
+    padding-left: 6px;
+}
